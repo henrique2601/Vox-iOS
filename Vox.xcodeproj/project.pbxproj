@@ -8,13 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		3ABBE381227DD0E300A7D386 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBE380227DD0E300A7D386 /* AppDelegate.swift */; };
-		3ABBE383227DD0E300A7D386 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBE382227DD0E300A7D386 /* ViewController.swift */; };
-		3ABBE386227DD0E300A7D386 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABBE384227DD0E300A7D386 /* Main.storyboard */; };
 		3ABBE389227DD0E300A7D386 /* Vox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBE387227DD0E300A7D386 /* Vox.xcdatamodeld */; };
 		3ABBE38B227DD0E500A7D386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ABBE38A227DD0E500A7D386 /* Assets.xcassets */; };
 		3ABBE38E227DD0E500A7D386 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABBE38C227DD0E500A7D386 /* LaunchScreen.storyboard */; };
 		3ABBE399227DD0E500A7D386 /* VoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBE398227DD0E500A7D386 /* VoxTests.swift */; };
 		3ABBE3A4227DD0E500A7D386 /* VoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBE3A3227DD0E500A7D386 /* VoxUITests.swift */; };
+		3ABBE3BC227E138E00A7D386 /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBE3BB227E138E00A7D386 /* CoreDataStore.swift */; };
+		3ABBE3BD227E138E00A7D386 /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBE3BB227E138E00A7D386 /* CoreDataStore.swift */; };
+		3ABBE3BE227E138E00A7D386 /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBE3BB227E138E00A7D386 /* CoreDataStore.swift */; };
+		3ABBE3C0227E17BA00A7D386 /* PeopleRecognitionProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBE3BF227E17BA00A7D386 /* PeopleRecognitionProtocols.swift */; };
+		3ABBE3C1227E17BA00A7D386 /* PeopleRecognitionProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBE3BF227E17BA00A7D386 /* PeopleRecognitionProtocols.swift */; };
+		3ABBE3C2227E17BA00A7D386 /* PeopleRecognitionProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBE3BF227E17BA00A7D386 /* PeopleRecognitionProtocols.swift */; };
+		3ABBE3C4227E190800A7D386 /* PeopleRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBE3C3227E190800A7D386 /* PeopleRecognitionViewController.swift */; };
+		3ABBE3C5227E190800A7D386 /* PeopleRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBE3C3227E190800A7D386 /* PeopleRecognitionViewController.swift */; };
+		3ABBE3C6227E190800A7D386 /* PeopleRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBE3C3227E190800A7D386 /* PeopleRecognitionViewController.swift */; };
+		3ABBE3C8227E198300A7D386 /* PeopleRecognitionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBE3C7227E198300A7D386 /* PeopleRecognitionPresenter.swift */; };
+		3ABBE3C9227E198300A7D386 /* PeopleRecognitionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBE3C7227E198300A7D386 /* PeopleRecognitionPresenter.swift */; };
+		3ABBE3CA227E198300A7D386 /* PeopleRecognitionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBE3C7227E198300A7D386 /* PeopleRecognitionPresenter.swift */; };
+		3ABBE3CC227E1A1E00A7D386 /* PeopleRecognitionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBE3CB227E1A1E00A7D386 /* PeopleRecognitionInteractor.swift */; };
+		3ABBE3CD227E1A1E00A7D386 /* PeopleRecognitionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBE3CB227E1A1E00A7D386 /* PeopleRecognitionInteractor.swift */; };
+		3ABBE3CE227E1A1E00A7D386 /* PeopleRecognitionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBE3CB227E1A1E00A7D386 /* PeopleRecognitionInteractor.swift */; };
+		3ABBE3D0227E1B2100A7D386 /* PeopleRecognitionWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBE3CF227E1B2100A7D386 /* PeopleRecognitionWorker.swift */; };
+		3ABBE3D1227E1B2100A7D386 /* PeopleRecognitionWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBE3CF227E1B2100A7D386 /* PeopleRecognitionWorker.swift */; };
+		3ABBE3D2227E1B2100A7D386 /* PeopleRecognitionWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBE3CF227E1B2100A7D386 /* PeopleRecognitionWorker.swift */; };
+		3ABBE3D4227E1BF500A7D386 /* PeopleRecognitionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBE3D3227E1BF500A7D386 /* PeopleRecognitionRouter.swift */; };
+		3ABBE3D5227E1BF500A7D386 /* PeopleRecognitionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBE3D3227E1BF500A7D386 /* PeopleRecognitionRouter.swift */; };
+		3ABBE3D6227E1BF500A7D386 /* PeopleRecognitionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBE3D3227E1BF500A7D386 /* PeopleRecognitionRouter.swift */; };
+		3AE9FA74227E1D97005BFCD9 /* PeopleRecognition.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE9FA73227E1D97005BFCD9 /* PeopleRecognition.storyboard */; };
+		3AE9FA75227E1D97005BFCD9 /* PeopleRecognition.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE9FA73227E1D97005BFCD9 /* PeopleRecognition.storyboard */; };
+		3AE9FA76227E1D97005BFCD9 /* PeopleRecognition.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE9FA73227E1D97005BFCD9 /* PeopleRecognition.storyboard */; };
+		3AE9FA78227E2096005BFCD9 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE9FA77227E2096005BFCD9 /* ImagePicker.swift */; };
+		3AE9FA79227E2096005BFCD9 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE9FA77227E2096005BFCD9 /* ImagePicker.swift */; };
+		3AE9FA7A227E2096005BFCD9 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE9FA77227E2096005BFCD9 /* ImagePicker.swift */; };
+		3AE9FA7C227E229E005BFCD9 /* ViewTapGestureExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE9FA7B227E229E005BFCD9 /* ViewTapGestureExtension.swift */; };
+		3AE9FA7D227E229E005BFCD9 /* ViewTapGestureExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE9FA7B227E229E005BFCD9 /* ViewTapGestureExtension.swift */; };
+		3AE9FA7E227E229E005BFCD9 /* ViewTapGestureExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE9FA7B227E229E005BFCD9 /* ViewTapGestureExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +65,6 @@
 /* Begin PBXFileReference section */
 		3ABBE37D227DD0E300A7D386 /* Vox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ABBE380227DD0E300A7D386 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3ABBE382227DD0E300A7D386 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3ABBE385227DD0E300A7D386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3ABBE388227DD0E300A7D386 /* Vox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vox.xcdatamodel; sourceTree = "<group>"; };
 		3ABBE38A227DD0E500A7D386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3ABBE38D227DD0E500A7D386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +75,16 @@
 		3ABBE39F227DD0E500A7D386 /* VoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ABBE3A3227DD0E500A7D386 /* VoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoxUITests.swift; sourceTree = "<group>"; };
 		3ABBE3A5227DD0E500A7D386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ABBE3BB227E138E00A7D386 /* CoreDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStore.swift; sourceTree = "<group>"; };
+		3ABBE3BF227E17BA00A7D386 /* PeopleRecognitionProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleRecognitionProtocols.swift; sourceTree = "<group>"; };
+		3ABBE3C3227E190800A7D386 /* PeopleRecognitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleRecognitionViewController.swift; sourceTree = "<group>"; };
+		3ABBE3C7227E198300A7D386 /* PeopleRecognitionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleRecognitionPresenter.swift; sourceTree = "<group>"; };
+		3ABBE3CB227E1A1E00A7D386 /* PeopleRecognitionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleRecognitionInteractor.swift; sourceTree = "<group>"; };
+		3ABBE3CF227E1B2100A7D386 /* PeopleRecognitionWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleRecognitionWorker.swift; sourceTree = "<group>"; };
+		3ABBE3D3227E1BF500A7D386 /* PeopleRecognitionRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleRecognitionRouter.swift; sourceTree = "<group>"; };
+		3AE9FA73227E1D97005BFCD9 /* PeopleRecognition.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PeopleRecognition.storyboard; sourceTree = "<group>"; };
+		3AE9FA77227E2096005BFCD9 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		3AE9FA7B227E229E005BFCD9 /* ViewTapGestureExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTapGestureExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +135,9 @@
 		3ABBE37F227DD0E300A7D386 /* Vox */ = {
 			isa = PBXGroup;
 			children = (
+				3ABBE3BA227E138E00A7D386 /* Commom */,
+				3ABBE3B9227E138E00A7D386 /* Modules */,
 				3ABBE380227DD0E300A7D386 /* AppDelegate.swift */,
-				3ABBE382227DD0E300A7D386 /* ViewController.swift */,
-				3ABBE384227DD0E300A7D386 /* Main.storyboard */,
 				3ABBE38A227DD0E500A7D386 /* Assets.xcassets */,
 				3ABBE38C227DD0E500A7D386 /* LaunchScreen.storyboard */,
 				3ABBE38F227DD0E500A7D386 /* Info.plist */,
@@ -126,6 +162,30 @@
 				3ABBE3A5227DD0E500A7D386 /* Info.plist */,
 			);
 			path = VoxUITests;
+			sourceTree = "<group>";
+		};
+		3ABBE3B9227E138E00A7D386 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				3ABBE3BF227E17BA00A7D386 /* PeopleRecognitionProtocols.swift */,
+				3ABBE3C3227E190800A7D386 /* PeopleRecognitionViewController.swift */,
+				3ABBE3C7227E198300A7D386 /* PeopleRecognitionPresenter.swift */,
+				3ABBE3CB227E1A1E00A7D386 /* PeopleRecognitionInteractor.swift */,
+				3ABBE3CF227E1B2100A7D386 /* PeopleRecognitionWorker.swift */,
+				3ABBE3D3227E1BF500A7D386 /* PeopleRecognitionRouter.swift */,
+				3AE9FA73227E1D97005BFCD9 /* PeopleRecognition.storyboard */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		3ABBE3BA227E138E00A7D386 /* Commom */ = {
+			isa = PBXGroup;
+			children = (
+				3ABBE3BB227E138E00A7D386 /* CoreDataStore.swift */,
+				3AE9FA77227E2096005BFCD9 /* ImagePicker.swift */,
+				3AE9FA7B227E229E005BFCD9 /* ViewTapGestureExtension.swift */,
+			);
+			path = Commom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +293,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ABBE38E227DD0E500A7D386 /* LaunchScreen.storyboard in Resources */,
+				3AE9FA74227E1D97005BFCD9 /* PeopleRecognition.storyboard in Resources */,
 				3ABBE38B227DD0E500A7D386 /* Assets.xcassets in Resources */,
-				3ABBE386227DD0E300A7D386 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AE9FA75227E1D97005BFCD9 /* PeopleRecognition.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AE9FA76227E1D97005BFCD9 /* PeopleRecognition.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +321,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AE9FA7C227E229E005BFCD9 /* ViewTapGestureExtension.swift in Sources */,
+				3ABBE3D0227E1B2100A7D386 /* PeopleRecognitionWorker.swift in Sources */,
+				3ABBE3C0227E17BA00A7D386 /* PeopleRecognitionProtocols.swift in Sources */,
 				3ABBE389227DD0E300A7D386 /* Vox.xcdatamodeld in Sources */,
-				3ABBE383227DD0E300A7D386 /* ViewController.swift in Sources */,
+				3ABBE3C8227E198300A7D386 /* PeopleRecognitionPresenter.swift in Sources */,
+				3ABBE3BC227E138E00A7D386 /* CoreDataStore.swift in Sources */,
 				3ABBE381227DD0E300A7D386 /* AppDelegate.swift in Sources */,
+				3AE9FA78227E2096005BFCD9 /* ImagePicker.swift in Sources */,
+				3ABBE3C4227E190800A7D386 /* PeopleRecognitionViewController.swift in Sources */,
+				3ABBE3CC227E1A1E00A7D386 /* PeopleRecognitionInteractor.swift in Sources */,
+				3ABBE3D4227E1BF500A7D386 /* PeopleRecognitionRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +339,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ABBE3D1227E1B2100A7D386 /* PeopleRecognitionWorker.swift in Sources */,
+				3ABBE3C9227E198300A7D386 /* PeopleRecognitionPresenter.swift in Sources */,
+				3ABBE3C1227E17BA00A7D386 /* PeopleRecognitionProtocols.swift in Sources */,
+				3AE9FA79227E2096005BFCD9 /* ImagePicker.swift in Sources */,
+				3AE9FA7D227E229E005BFCD9 /* ViewTapGestureExtension.swift in Sources */,
+				3ABBE3BD227E138E00A7D386 /* CoreDataStore.swift in Sources */,
+				3ABBE3CD227E1A1E00A7D386 /* PeopleRecognitionInteractor.swift in Sources */,
 				3ABBE399227DD0E500A7D386 /* VoxTests.swift in Sources */,
+				3ABBE3C5227E190800A7D386 /* PeopleRecognitionViewController.swift in Sources */,
+				3ABBE3D5227E1BF500A7D386 /* PeopleRecognitionRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +356,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ABBE3D2227E1B2100A7D386 /* PeopleRecognitionWorker.swift in Sources */,
+				3ABBE3CA227E198300A7D386 /* PeopleRecognitionPresenter.swift in Sources */,
+				3ABBE3C2227E17BA00A7D386 /* PeopleRecognitionProtocols.swift in Sources */,
+				3AE9FA7A227E2096005BFCD9 /* ImagePicker.swift in Sources */,
+				3AE9FA7E227E229E005BFCD9 /* ViewTapGestureExtension.swift in Sources */,
+				3ABBE3BE227E138E00A7D386 /* CoreDataStore.swift in Sources */,
+				3ABBE3CE227E1A1E00A7D386 /* PeopleRecognitionInteractor.swift in Sources */,
 				3ABBE3A4227DD0E500A7D386 /* VoxUITests.swift in Sources */,
+				3ABBE3C6227E190800A7D386 /* PeopleRecognitionViewController.swift in Sources */,
+				3ABBE3D6227E1BF500A7D386 /* PeopleRecognitionRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +385,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3ABBE384227DD0E300A7D386 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3ABBE385227DD0E300A7D386 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3ABBE38C227DD0E500A7D386 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -367,7 +447,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +502,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,6 +517,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ER489438ZX;
 				INFOPLIST_FILE = Vox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +535,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ER489438ZX;
 				INFOPLIST_FILE = Vox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
