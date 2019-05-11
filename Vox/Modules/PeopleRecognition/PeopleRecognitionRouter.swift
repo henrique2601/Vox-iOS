@@ -8,12 +8,15 @@
 
 import UIKit
 
-class PeopleRecognitionRouter: PeopleRecognitionRouterProtocol {
+class PeopleRecognitionRouter: PeopleRecognitionRouterProtocol, TabBarViewProtocol {
+    var tabIcon = UIImage(named:"peopleSearch")!
+    var tabTitle = "Buscar pessoa"
+    
     var storyboard: UIStoryboard {
         return UIStoryboard(name: "PeopleRecognition", bundle: Bundle.main)
     }
     
-    func build() -> UIViewController {
+    func configuredViewController() -> UIViewController {
         let interactor = PeopleRecognitionInteractor()
         let presenter = PeopleRecognitionPresenter()
         let router = PeopleRecognitionRouter()

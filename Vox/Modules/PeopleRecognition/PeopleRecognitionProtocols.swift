@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 protocol PeopleRecognitionViewProtocol: class {
     var presenter: PeopleRecognitionPresenterProtocol? { get set }
     
@@ -26,13 +25,6 @@ protocol PeopleRecognitionPresenterProtocol: class {
     func searchPeople(_ image: UIImage)
 }
 
-protocol PeopleRecognitionInteractorOutputProtocol: class {
-    var view: PeopleRecognitionViewProtocol? { get set }
-    
-    // Add here your methods for communication INTERACTOR -> PRESENTER
-    func peopleSearchDidReturn(response: String)
-}
-
 protocol PeopleRecognitionInteractorInputProtocol: class {
     var presenter: PeopleRecognitionInteractorOutputProtocol? { get set }
     var worker: PeopleRecognitionWorkerProtocol? { get set }
@@ -46,8 +38,13 @@ protocol PeopleRecognitionWorkerProtocol: class {
     func searchPeople(_ image: UIImage, completion: ((String) -> Void)!)
 }
 
+protocol PeopleRecognitionInteractorOutputProtocol: class {
+    var view: PeopleRecognitionViewProtocol? { get set }
+    
+    // Add here your methods for communication INTERACTOR -> PRESENTER
+    func peopleSearchDidReturn(response: String)
+}
 
 protocol PeopleRecognitionRouterProtocol: class {
     // Add here your methods for communication PRESENTER -> ROUTER
-    func build() -> UIViewController
 }

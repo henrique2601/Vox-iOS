@@ -24,16 +24,12 @@ class PeopleRecognitionViewController: UIViewController, PeopleRecognitionViewPr
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Search People"
+        title = "Buscar pessoa"
         
         imagePicker = ImagePicker(presentationController: self, delegate: self)
         imageView.addTapGestureRecognizer {
-            self.showImagePicker()
+            self.imagePicker.present(from: self.imageView)
         }
-    }
-    
-    func showImagePicker() {
-        imagePicker.present(from: self.imageView)
     }
 }
 

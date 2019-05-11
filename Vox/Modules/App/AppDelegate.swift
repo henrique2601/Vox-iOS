@@ -12,6 +12,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
+    var rootWireframe: RootWireframe?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         self.initMainScreen()
@@ -20,13 +21,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func initMainScreen() {
         self.window = UIWindow(frame: UIScreen.main.bounds)
-        if let appDelegate = UIApplication.shared.delegate as? AppDelegate, let window = appDelegate.window  {
-            let viewControllerMain = PeopleRecognitionRouter().build()
-            let navigationController = UINavigationController()
-            navigationController.viewControllers = [viewControllerMain]
-            window.rootViewController = navigationController
-            window.makeKeyAndVisible()
-        }
+        
+        rootWireframe = RootWireframe.init(window: window!)
+        rootWireframe!.installViewIntoRootViewController()
+        
+//        if let appDelegate = UIApplication.shared.delegate as? AppDelegate, let window = appDelegate.window  {
+//            let viewControllerMain = PeopleRecognitionRouter().build()
+//            let navigationController = UINavigationController()
+//            navigationController.viewControllers = [viewControllerMain]
+//            window.rootViewController = navigationController
+//            window.makeKeyAndVisible()
+//        }
     }
     
     

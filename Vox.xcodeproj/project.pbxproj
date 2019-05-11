@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A7FABB122873EA200A7A94A /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7FABB022873EA200A7A94A /* HttpService.swift */; };
+		3A7FABB222873EA200A7A94A /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7FABB022873EA200A7A94A /* HttpService.swift */; };
+		3A7FABB322873EA200A7A94A /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7FABB022873EA200A7A94A /* HttpService.swift */; };
+		3A7FABB52287554C00A7A94A /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7FABB42287554C00A7A94A /* ViewControllerExtension.swift */; };
+		3A7FABB62287554C00A7A94A /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7FABB42287554C00A7A94A /* ViewControllerExtension.swift */; };
+		3A7FABB72287554C00A7A94A /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7FABB42287554C00A7A94A /* ViewControllerExtension.swift */; };
 		3ABBE381227DD0E300A7D386 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBE380227DD0E300A7D386 /* AppDelegate.swift */; };
 		3ABBE389227DD0E300A7D386 /* Vox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBE387227DD0E300A7D386 /* Vox.xcdatamodeld */; };
 		3ABBE38B227DD0E500A7D386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ABBE38A227DD0E500A7D386 /* Assets.xcassets */; };
@@ -43,6 +49,39 @@
 		3AE9FA7C227E229E005BFCD9 /* ViewTapGestureExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE9FA7B227E229E005BFCD9 /* ViewTapGestureExtension.swift */; };
 		3AE9FA7D227E229E005BFCD9 /* ViewTapGestureExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE9FA7B227E229E005BFCD9 /* ViewTapGestureExtension.swift */; };
 		3AE9FA7E227E229E005BFCD9 /* ViewTapGestureExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE9FA7B227E229E005BFCD9 /* ViewTapGestureExtension.swift */; };
+		3AF3019722870CA3003C7BFF /* PeopleRegistrationProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF3019622870CA3003C7BFF /* PeopleRegistrationProtocols.swift */; };
+		3AF3019822870CA3003C7BFF /* PeopleRegistrationProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF3019622870CA3003C7BFF /* PeopleRegistrationProtocols.swift */; };
+		3AF3019922870CA3003C7BFF /* PeopleRegistrationProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF3019622870CA3003C7BFF /* PeopleRegistrationProtocols.swift */; };
+		3AF3019D22870FC9003C7BFF /* PeopleToRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF3019C22870FC9003C7BFF /* PeopleToRegister.swift */; };
+		3AF3019E22870FC9003C7BFF /* PeopleToRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF3019C22870FC9003C7BFF /* PeopleToRegister.swift */; };
+		3AF3019F22870FC9003C7BFF /* PeopleToRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF3019C22870FC9003C7BFF /* PeopleToRegister.swift */; };
+		3AF301A6228711FC003C7BFF /* RootWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF301A5228711FC003C7BFF /* RootWireFrame.swift */; };
+		3AF301A7228711FC003C7BFF /* RootWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF301A5228711FC003C7BFF /* RootWireFrame.swift */; };
+		3AF301A8228711FC003C7BFF /* RootWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF301A5228711FC003C7BFF /* RootWireFrame.swift */; };
+		3AF301AB228712A4003C7BFF /* TabBarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF301AA228712A4003C7BFF /* TabBarProtocols.swift */; };
+		3AF301AC228712A4003C7BFF /* TabBarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF301AA228712A4003C7BFF /* TabBarProtocols.swift */; };
+		3AF301AD228712A4003C7BFF /* TabBarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF301AA228712A4003C7BFF /* TabBarProtocols.swift */; };
+		3AF301AF22871368003C7BFF /* TabBarModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF301AE22871368003C7BFF /* TabBarModuleRouter.swift */; };
+		3AF301B022871368003C7BFF /* TabBarModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF301AE22871368003C7BFF /* TabBarModuleRouter.swift */; };
+		3AF301B122871368003C7BFF /* TabBarModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF301AE22871368003C7BFF /* TabBarModuleRouter.swift */; };
+		3AF301B722872734003C7BFF /* PeopleRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF301B622872734003C7BFF /* PeopleRegistrationViewController.swift */; };
+		3AF301B822872734003C7BFF /* PeopleRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF301B622872734003C7BFF /* PeopleRegistrationViewController.swift */; };
+		3AF301B922872734003C7BFF /* PeopleRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF301B622872734003C7BFF /* PeopleRegistrationViewController.swift */; };
+		3AF301BB22872754003C7BFF /* PeopleRegistrationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF301BA22872754003C7BFF /* PeopleRegistrationPresenter.swift */; };
+		3AF301BC22872754003C7BFF /* PeopleRegistrationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF301BA22872754003C7BFF /* PeopleRegistrationPresenter.swift */; };
+		3AF301BD22872754003C7BFF /* PeopleRegistrationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF301BA22872754003C7BFF /* PeopleRegistrationPresenter.swift */; };
+		3AF301BF22872785003C7BFF /* PeopleRegistrationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF301BE22872785003C7BFF /* PeopleRegistrationInteractor.swift */; };
+		3AF301C022872785003C7BFF /* PeopleRegistrationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF301BE22872785003C7BFF /* PeopleRegistrationInteractor.swift */; };
+		3AF301C122872785003C7BFF /* PeopleRegistrationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF301BE22872785003C7BFF /* PeopleRegistrationInteractor.swift */; };
+		3AF301C3228727DB003C7BFF /* PeopleRegistrationWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF301C2228727DB003C7BFF /* PeopleRegistrationWorker.swift */; };
+		3AF301C4228727DB003C7BFF /* PeopleRegistrationWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF301C2228727DB003C7BFF /* PeopleRegistrationWorker.swift */; };
+		3AF301C5228727DB003C7BFF /* PeopleRegistrationWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF301C2228727DB003C7BFF /* PeopleRegistrationWorker.swift */; };
+		3AF301C722872912003C7BFF /* PeopleRegistrationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF301C622872912003C7BFF /* PeopleRegistrationRouter.swift */; };
+		3AF301C822872912003C7BFF /* PeopleRegistrationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF301C622872912003C7BFF /* PeopleRegistrationRouter.swift */; };
+		3AF301C922872912003C7BFF /* PeopleRegistrationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF301C622872912003C7BFF /* PeopleRegistrationRouter.swift */; };
+		3AF301CB228729E6003C7BFF /* PeopleRegistration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF301CA228729E6003C7BFF /* PeopleRegistration.storyboard */; };
+		3AF301CC228729E6003C7BFF /* PeopleRegistration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF301CA228729E6003C7BFF /* PeopleRegistration.storyboard */; };
+		3AF301CD228729E6003C7BFF /* PeopleRegistration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF301CA228729E6003C7BFF /* PeopleRegistration.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +102,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A7FABB022873EA200A7A94A /* HttpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpService.swift; sourceTree = "<group>"; };
+		3A7FABB42287554C00A7A94A /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
 		3ABBE37D227DD0E300A7D386 /* Vox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ABBE380227DD0E300A7D386 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3ABBE388227DD0E300A7D386 /* Vox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vox.xcdatamodel; sourceTree = "<group>"; };
@@ -85,6 +126,17 @@
 		3AE9FA73227E1D97005BFCD9 /* PeopleRecognition.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PeopleRecognition.storyboard; sourceTree = "<group>"; };
 		3AE9FA77227E2096005BFCD9 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		3AE9FA7B227E229E005BFCD9 /* ViewTapGestureExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTapGestureExtension.swift; sourceTree = "<group>"; };
+		3AF3019622870CA3003C7BFF /* PeopleRegistrationProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleRegistrationProtocols.swift; sourceTree = "<group>"; };
+		3AF3019C22870FC9003C7BFF /* PeopleToRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleToRegister.swift; sourceTree = "<group>"; };
+		3AF301A5228711FC003C7BFF /* RootWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootWireFrame.swift; sourceTree = "<group>"; };
+		3AF301AA228712A4003C7BFF /* TabBarProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarProtocols.swift; sourceTree = "<group>"; };
+		3AF301AE22871368003C7BFF /* TabBarModuleRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarModuleRouter.swift; sourceTree = "<group>"; };
+		3AF301B622872734003C7BFF /* PeopleRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PeopleRegistrationViewController.swift; path = ../PeopleRegistrationViewController.swift; sourceTree = "<group>"; };
+		3AF301BA22872754003C7BFF /* PeopleRegistrationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleRegistrationPresenter.swift; sourceTree = "<group>"; };
+		3AF301BE22872785003C7BFF /* PeopleRegistrationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleRegistrationInteractor.swift; sourceTree = "<group>"; };
+		3AF301C2228727DB003C7BFF /* PeopleRegistrationWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleRegistrationWorker.swift; sourceTree = "<group>"; };
+		3AF301C622872912003C7BFF /* PeopleRegistrationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleRegistrationRouter.swift; sourceTree = "<group>"; };
+		3AF301CA228729E6003C7BFF /* PeopleRegistration.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = PeopleRegistration.storyboard; path = ../PeopleRegistration.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +189,6 @@
 			children = (
 				3ABBE3BA227E138E00A7D386 /* Commom */,
 				3ABBE3B9227E138E00A7D386 /* Modules */,
-				3ABBE380227DD0E300A7D386 /* AppDelegate.swift */,
 				3ABBE38A227DD0E500A7D386 /* Assets.xcassets */,
 				3ABBE38C227DD0E500A7D386 /* LaunchScreen.storyboard */,
 				3ABBE38F227DD0E500A7D386 /* Info.plist */,
@@ -167,13 +218,10 @@
 		3ABBE3B9227E138E00A7D386 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				3ABBE3BF227E17BA00A7D386 /* PeopleRecognitionProtocols.swift */,
-				3ABBE3C3227E190800A7D386 /* PeopleRecognitionViewController.swift */,
-				3ABBE3C7227E198300A7D386 /* PeopleRecognitionPresenter.swift */,
-				3ABBE3CB227E1A1E00A7D386 /* PeopleRecognitionInteractor.swift */,
-				3ABBE3CF227E1B2100A7D386 /* PeopleRecognitionWorker.swift */,
-				3ABBE3D3227E1BF500A7D386 /* PeopleRecognitionRouter.swift */,
-				3AE9FA73227E1D97005BFCD9 /* PeopleRecognition.storyboard */,
+				3AF301A4228711DA003C7BFF /* App */,
+				3AF3019522870C26003C7BFF /* PeopleRegistration */,
+				3AF3019422870C0B003C7BFF /* PeopleRecognition */,
+				3AF301A922871265003C7BFF /* TabBar */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -184,8 +232,81 @@
 				3ABBE3BB227E138E00A7D386 /* CoreDataStore.swift */,
 				3AE9FA77227E2096005BFCD9 /* ImagePicker.swift */,
 				3AE9FA7B227E229E005BFCD9 /* ViewTapGestureExtension.swift */,
+				3A7FABB022873EA200A7A94A /* HttpService.swift */,
+				3A7FABB42287554C00A7A94A /* ViewControllerExtension.swift */,
 			);
 			path = Commom;
+			sourceTree = "<group>";
+		};
+		3AF3019422870C0B003C7BFF /* PeopleRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				3AF3019A22870D48003C7BFF /* View */,
+				3ABBE3BF227E17BA00A7D386 /* PeopleRecognitionProtocols.swift */,
+				3ABBE3C7227E198300A7D386 /* PeopleRecognitionPresenter.swift */,
+				3ABBE3CB227E1A1E00A7D386 /* PeopleRecognitionInteractor.swift */,
+				3ABBE3CF227E1B2100A7D386 /* PeopleRecognitionWorker.swift */,
+				3ABBE3D3227E1BF500A7D386 /* PeopleRecognitionRouter.swift */,
+			);
+			path = PeopleRecognition;
+			sourceTree = "<group>";
+		};
+		3AF3019522870C26003C7BFF /* PeopleRegistration */ = {
+			isa = PBXGroup;
+			children = (
+				3AF3019B22870FAB003C7BFF /* Entities */,
+				3AF301CE228739DB003C7BFF /* View */,
+				3AF3019622870CA3003C7BFF /* PeopleRegistrationProtocols.swift */,
+				3AF301BA22872754003C7BFF /* PeopleRegistrationPresenter.swift */,
+				3AF301BE22872785003C7BFF /* PeopleRegistrationInteractor.swift */,
+				3AF301C2228727DB003C7BFF /* PeopleRegistrationWorker.swift */,
+				3AF301C622872912003C7BFF /* PeopleRegistrationRouter.swift */,
+			);
+			path = PeopleRegistration;
+			sourceTree = "<group>";
+		};
+		3AF3019A22870D48003C7BFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3ABBE3C3227E190800A7D386 /* PeopleRecognitionViewController.swift */,
+				3AE9FA73227E1D97005BFCD9 /* PeopleRecognition.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3AF3019B22870FAB003C7BFF /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				3AF3019C22870FC9003C7BFF /* PeopleToRegister.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		3AF301A4228711DA003C7BFF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3ABBE380227DD0E300A7D386 /* AppDelegate.swift */,
+				3AF301A5228711FC003C7BFF /* RootWireFrame.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3AF301A922871265003C7BFF /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				3AF301AA228712A4003C7BFF /* TabBarProtocols.swift */,
+				3AF301AE22871368003C7BFF /* TabBarModuleRouter.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		3AF301CE228739DB003C7BFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3AF301B622872734003C7BFF /* PeopleRegistrationViewController.swift */,
+				3AF301CA228729E6003C7BFF /* PeopleRegistration.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +413,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AF301CB228729E6003C7BFF /* PeopleRegistration.storyboard in Resources */,
 				3ABBE38E227DD0E500A7D386 /* LaunchScreen.storyboard in Resources */,
 				3AE9FA74227E1D97005BFCD9 /* PeopleRecognition.storyboard in Resources */,
 				3ABBE38B227DD0E500A7D386 /* Assets.xcassets in Resources */,
@@ -302,6 +424,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AF301CC228729E6003C7BFF /* PeopleRegistration.storyboard in Resources */,
 				3AE9FA75227E1D97005BFCD9 /* PeopleRecognition.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +433,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AF301CD228729E6003C7BFF /* PeopleRegistration.storyboard in Resources */,
 				3AE9FA76227E1D97005BFCD9 /* PeopleRecognition.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,17 +445,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AF301BF22872785003C7BFF /* PeopleRegistrationInteractor.swift in Sources */,
+				3A7FABB122873EA200A7A94A /* HttpService.swift in Sources */,
 				3AE9FA7C227E229E005BFCD9 /* ViewTapGestureExtension.swift in Sources */,
+				3A7FABB52287554C00A7A94A /* ViewControllerExtension.swift in Sources */,
+				3AF301AB228712A4003C7BFF /* TabBarProtocols.swift in Sources */,
+				3AF301A6228711FC003C7BFF /* RootWireFrame.swift in Sources */,
 				3ABBE3D0227E1B2100A7D386 /* PeopleRecognitionWorker.swift in Sources */,
+				3AF301B722872734003C7BFF /* PeopleRegistrationViewController.swift in Sources */,
+				3AF301C722872912003C7BFF /* PeopleRegistrationRouter.swift in Sources */,
 				3ABBE3C0227E17BA00A7D386 /* PeopleRecognitionProtocols.swift in Sources */,
 				3ABBE389227DD0E300A7D386 /* Vox.xcdatamodeld in Sources */,
+				3AF301AF22871368003C7BFF /* TabBarModuleRouter.swift in Sources */,
+				3AF301BB22872754003C7BFF /* PeopleRegistrationPresenter.swift in Sources */,
 				3ABBE3C8227E198300A7D386 /* PeopleRecognitionPresenter.swift in Sources */,
+				3AF3019D22870FC9003C7BFF /* PeopleToRegister.swift in Sources */,
 				3ABBE3BC227E138E00A7D386 /* CoreDataStore.swift in Sources */,
 				3ABBE381227DD0E300A7D386 /* AppDelegate.swift in Sources */,
+				3AF3019722870CA3003C7BFF /* PeopleRegistrationProtocols.swift in Sources */,
 				3AE9FA78227E2096005BFCD9 /* ImagePicker.swift in Sources */,
 				3ABBE3C4227E190800A7D386 /* PeopleRecognitionViewController.swift in Sources */,
 				3ABBE3CC227E1A1E00A7D386 /* PeopleRecognitionInteractor.swift in Sources */,
 				3ABBE3D4227E1BF500A7D386 /* PeopleRecognitionRouter.swift in Sources */,
+				3AF301C3228727DB003C7BFF /* PeopleRegistrationWorker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,14 +477,26 @@
 			files = (
 				3ABBE3D1227E1B2100A7D386 /* PeopleRecognitionWorker.swift in Sources */,
 				3ABBE3C9227E198300A7D386 /* PeopleRecognitionPresenter.swift in Sources */,
+				3AF301B822872734003C7BFF /* PeopleRegistrationViewController.swift in Sources */,
+				3AF3019822870CA3003C7BFF /* PeopleRegistrationProtocols.swift in Sources */,
 				3ABBE3C1227E17BA00A7D386 /* PeopleRecognitionProtocols.swift in Sources */,
 				3AE9FA79227E2096005BFCD9 /* ImagePicker.swift in Sources */,
 				3AE9FA7D227E229E005BFCD9 /* ViewTapGestureExtension.swift in Sources */,
+				3AF301C4228727DB003C7BFF /* PeopleRegistrationWorker.swift in Sources */,
+				3AF301C022872785003C7BFF /* PeopleRegistrationInteractor.swift in Sources */,
+				3AF3019E22870FC9003C7BFF /* PeopleToRegister.swift in Sources */,
 				3ABBE3BD227E138E00A7D386 /* CoreDataStore.swift in Sources */,
 				3ABBE3CD227E1A1E00A7D386 /* PeopleRecognitionInteractor.swift in Sources */,
+				3AF301BC22872754003C7BFF /* PeopleRegistrationPresenter.swift in Sources */,
+				3AF301AC228712A4003C7BFF /* TabBarProtocols.swift in Sources */,
+				3AF301C822872912003C7BFF /* PeopleRegistrationRouter.swift in Sources */,
+				3AF301B022871368003C7BFF /* TabBarModuleRouter.swift in Sources */,
+				3AF301A7228711FC003C7BFF /* RootWireFrame.swift in Sources */,
 				3ABBE399227DD0E500A7D386 /* VoxTests.swift in Sources */,
+				3A7FABB62287554C00A7A94A /* ViewControllerExtension.swift in Sources */,
 				3ABBE3C5227E190800A7D386 /* PeopleRecognitionViewController.swift in Sources */,
 				3ABBE3D5227E1BF500A7D386 /* PeopleRecognitionRouter.swift in Sources */,
+				3A7FABB222873EA200A7A94A /* HttpService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,14 +506,26 @@
 			files = (
 				3ABBE3D2227E1B2100A7D386 /* PeopleRecognitionWorker.swift in Sources */,
 				3ABBE3CA227E198300A7D386 /* PeopleRecognitionPresenter.swift in Sources */,
+				3AF301B922872734003C7BFF /* PeopleRegistrationViewController.swift in Sources */,
+				3AF3019922870CA3003C7BFF /* PeopleRegistrationProtocols.swift in Sources */,
 				3ABBE3C2227E17BA00A7D386 /* PeopleRecognitionProtocols.swift in Sources */,
 				3AE9FA7A227E2096005BFCD9 /* ImagePicker.swift in Sources */,
 				3AE9FA7E227E229E005BFCD9 /* ViewTapGestureExtension.swift in Sources */,
+				3AF301C5228727DB003C7BFF /* PeopleRegistrationWorker.swift in Sources */,
+				3AF301C122872785003C7BFF /* PeopleRegistrationInteractor.swift in Sources */,
+				3AF3019F22870FC9003C7BFF /* PeopleToRegister.swift in Sources */,
 				3ABBE3BE227E138E00A7D386 /* CoreDataStore.swift in Sources */,
 				3ABBE3CE227E1A1E00A7D386 /* PeopleRecognitionInteractor.swift in Sources */,
+				3AF301BD22872754003C7BFF /* PeopleRegistrationPresenter.swift in Sources */,
+				3AF301AD228712A4003C7BFF /* TabBarProtocols.swift in Sources */,
+				3AF301C922872912003C7BFF /* PeopleRegistrationRouter.swift in Sources */,
+				3AF301B122871368003C7BFF /* TabBarModuleRouter.swift in Sources */,
+				3AF301A8228711FC003C7BFF /* RootWireFrame.swift in Sources */,
 				3ABBE3A4227DD0E500A7D386 /* VoxUITests.swift in Sources */,
+				3A7FABB72287554C00A7A94A /* ViewControllerExtension.swift in Sources */,
 				3ABBE3C6227E190800A7D386 /* PeopleRecognitionViewController.swift in Sources */,
 				3ABBE3D6227E1BF500A7D386 /* PeopleRecognitionRouter.swift in Sources */,
+				3A7FABB322873EA200A7A94A /* HttpService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
