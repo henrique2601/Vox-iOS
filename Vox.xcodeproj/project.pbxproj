@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		335C29769C7230B5C6BD9F57 /* Pods_VoxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7019089AE6F22A9E0481074 /* Pods_VoxTests.framework */; };
+		3A40011835968AE8C1F767B8 /* Pods_Vox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5032A48178A4CC9B48AEFF /* Pods_Vox.framework */; };
 		3A7FABB122873EA200A7A94A /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7FABB022873EA200A7A94A /* HttpService.swift */; };
 		3A7FABB222873EA200A7A94A /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7FABB022873EA200A7A94A /* HttpService.swift */; };
 		3A7FABB322873EA200A7A94A /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7FABB022873EA200A7A94A /* HttpService.swift */; };
@@ -82,6 +84,7 @@
 		3AF301CB228729E6003C7BFF /* PeopleRegistration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF301CA228729E6003C7BFF /* PeopleRegistration.storyboard */; };
 		3AF301CC228729E6003C7BFF /* PeopleRegistration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF301CA228729E6003C7BFF /* PeopleRegistration.storyboard */; };
 		3AF301CD228729E6003C7BFF /* PeopleRegistration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF301CA228729E6003C7BFF /* PeopleRegistration.storyboard */; };
+		883FABCACE175B306B7FAED0 /* Pods_VoxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC83A78DBC42A2E170DA021 /* Pods_VoxUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +105,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02517CB0368126E611DBF778 /* Pods-VoxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VoxTests/Pods-VoxTests.release.xcconfig"; sourceTree = "<group>"; };
+		33A4E56536E9243FD22465CB /* Pods-VoxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoxTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VoxTests/Pods-VoxTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3A7FABB022873EA200A7A94A /* HttpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpService.swift; sourceTree = "<group>"; };
 		3A7FABB42287554C00A7A94A /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
 		3ABBE37D227DD0E300A7D386 /* Vox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vox.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +142,13 @@
 		3AF301C2228727DB003C7BFF /* PeopleRegistrationWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleRegistrationWorker.swift; sourceTree = "<group>"; };
 		3AF301C622872912003C7BFF /* PeopleRegistrationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleRegistrationRouter.swift; sourceTree = "<group>"; };
 		3AF301CA228729E6003C7BFF /* PeopleRegistration.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = PeopleRegistration.storyboard; path = ../PeopleRegistration.storyboard; sourceTree = "<group>"; };
+		6AC83A78DBC42A2E170DA021 /* Pods_VoxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9474D710F8C2AD114599FF09 /* Pods-VoxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoxUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VoxUITests/Pods-VoxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A18DE1F7B67D9DF59CCD683C /* Pods-Vox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vox.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vox/Pods-Vox.release.xcconfig"; sourceTree = "<group>"; };
+		CCB4B82633E5DC3CB465708B /* Pods-VoxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoxUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VoxUITests/Pods-VoxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DF5032A48178A4CC9B48AEFF /* Pods_Vox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7019089AE6F22A9E0481074 /* Pods_VoxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1A51D7F2AE94D83DB09D107 /* Pods-Vox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vox/Pods-Vox.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A40011835968AE8C1F767B8 /* Pods_Vox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				335C29769C7230B5C6BD9F57 /* Pods_VoxTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,12 +172,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				883FABCACE175B306B7FAED0 /* Pods_VoxUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36734D3812964148DCA2FF39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1A51D7F2AE94D83DB09D107 /* Pods-Vox.debug.xcconfig */,
+				A18DE1F7B67D9DF59CCD683C /* Pods-Vox.release.xcconfig */,
+				33A4E56536E9243FD22465CB /* Pods-VoxTests.debug.xcconfig */,
+				02517CB0368126E611DBF778 /* Pods-VoxTests.release.xcconfig */,
+				9474D710F8C2AD114599FF09 /* Pods-VoxUITests.debug.xcconfig */,
+				CCB4B82633E5DC3CB465708B /* Pods-VoxUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3ABBE374227DD0E300A7D386 = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +199,8 @@
 				3ABBE397227DD0E500A7D386 /* VoxTests */,
 				3ABBE3A2227DD0E500A7D386 /* VoxUITests */,
 				3ABBE37E227DD0E300A7D386 /* Products */,
+				36734D3812964148DCA2FF39 /* Pods */,
+				C55650D15829EC756DC38299 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -218,6 +248,7 @@
 		3ABBE3B9227E138E00A7D386 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				3ABBEEDC22BC24BC003B6649 /* Login */,
 				3AF301A4228711DA003C7BFF /* App */,
 				3AF3019522870C26003C7BFF /* PeopleRegistration */,
 				3AF3019422870C0B003C7BFF /* PeopleRecognition */,
@@ -236,6 +267,13 @@
 				3A7FABB42287554C00A7A94A /* ViewControllerExtension.swift */,
 			);
 			path = Commom;
+			sourceTree = "<group>";
+		};
+		3ABBEEDC22BC24BC003B6649 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		3AF3019422870C0B003C7BFF /* PeopleRecognition */ = {
@@ -309,6 +347,16 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		C55650D15829EC756DC38299 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF5032A48178A4CC9B48AEFF /* Pods_Vox.framework */,
+				E7019089AE6F22A9E0481074 /* Pods_VoxTests.framework */,
+				6AC83A78DBC42A2E170DA021 /* Pods_VoxUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -316,9 +364,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3ABBE3A8227DD0E500A7D386 /* Build configuration list for PBXNativeTarget "Vox" */;
 			buildPhases = (
+				8EDEC29F5702504FDD3FA1EF /* [CP] Check Pods Manifest.lock */,
 				3ABBE379227DD0E300A7D386 /* Sources */,
 				3ABBE37A227DD0E300A7D386 /* Frameworks */,
 				3ABBE37B227DD0E300A7D386 /* Resources */,
+				0784676628CB506D7F41936D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -333,6 +383,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3ABBE3AB227DD0E500A7D386 /* Build configuration list for PBXNativeTarget "VoxTests" */;
 			buildPhases = (
+				A11E88FC37268A8FC41CD395 /* [CP] Check Pods Manifest.lock */,
 				3ABBE390227DD0E500A7D386 /* Sources */,
 				3ABBE391227DD0E500A7D386 /* Frameworks */,
 				3ABBE392227DD0E500A7D386 /* Resources */,
@@ -351,6 +402,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3ABBE3AE227DD0E500A7D386 /* Build configuration list for PBXNativeTarget "VoxUITests" */;
 			buildPhases = (
+				B772CAF318C9F3C54A45F5D8 /* [CP] Check Pods Manifest.lock */,
 				3ABBE39B227DD0E500A7D386 /* Sources */,
 				3ABBE39C227DD0E500A7D386 /* Frameworks */,
 				3ABBE39D227DD0E500A7D386 /* Resources */,
@@ -439,6 +491,85 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0784676628CB506D7F41936D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Vox/Pods-Vox-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vox/Pods-Vox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EDEC29F5702504FDD3FA1EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A11E88FC37268A8FC41CD395 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoxTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B772CAF318C9F3C54A45F5D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoxUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3ABBE379227DD0E300A7D386 /* Sources */ = {
@@ -674,6 +805,7 @@
 		};
 		3ABBE3A9227DD0E500A7D386 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1A51D7F2AE94D83DB09D107 /* Pods-Vox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -692,6 +824,7 @@
 		};
 		3ABBE3AA227DD0E500A7D386 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A18DE1F7B67D9DF59CCD683C /* Pods-Vox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -710,6 +843,7 @@
 		};
 		3ABBE3AC227DD0E500A7D386 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33A4E56536E9243FD22465CB /* Pods-VoxTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -730,6 +864,7 @@
 		};
 		3ABBE3AD227DD0E500A7D386 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02517CB0368126E611DBF778 /* Pods-VoxTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -750,6 +885,7 @@
 		};
 		3ABBE3AF227DD0E500A7D386 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9474D710F8C2AD114599FF09 /* Pods-VoxUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -769,6 +905,7 @@
 		};
 		3ABBE3B0227DD0E500A7D386 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB4B82633E5DC3CB465708B /* Pods-VoxUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
