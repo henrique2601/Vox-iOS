@@ -8,7 +8,9 @@ target 'Vox' do
   # Pods for Vox
   pod 'Firebase/Database'	
   pod 'Firebase/Auth'  
-  pod 'Firebase/Storage'  
+  pod 'Firebase/Storage' 
+  pod 'Firebase/Core'
+  pod 'Firebase/Firestore' 
 
   target 'VoxTests' do
     inherit! :search_paths

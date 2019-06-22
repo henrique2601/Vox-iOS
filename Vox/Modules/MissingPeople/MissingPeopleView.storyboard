@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mVF-Nh-hPN">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Desaparecidos-->
+        <scene sceneID="y4z-Rf-gbG">
+            <objects>
+                <viewController storyboardIdentifier="MissingPeopleView" title="Desaparecidos" useStoryboardIdentifierAsRestorationIdentifier="YES" id="sJU-GH-vOl" customClass="MissingPeopleView" customModule="Vox" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SFU-ZI-47w">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="RoG-ib-8hh">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="mL3-GD-Mfk">
+                                    <size key="itemSize" width="173" height="228"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="missingPeopleCell" id="dig-Wk-vT8" customClass="MissingPeopleCell" customModule="Vox" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="173" height="228"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="173" height="228"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="peopleSearch" translatesAutoresizingMaskIntoConstraints="NO" id="P3O-ua-RQu">
+                                                    <rect key="frame" x="0.0" y="0.0" width="173" height="166"/>
+                                                </imageView>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mPx-bE-xhL">
+                                                    <rect key="frame" x="0.0" y="168" width="173" height="60"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s1R-aV-90N">
+                                                            <rect key="frame" x="10" y="10" width="153" height="17"/>
+                                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GaQ-7g-dEJ">
+                                                            <rect key="frame" x="10" y="30" width="153" height="14.5"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" red="0.90196078430000004" green="0.4941176471" blue="0.1333333333" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="60" id="3rc-Ya-qX0"/>
+                                                        <constraint firstAttribute="trailing" secondItem="GaQ-7g-dEJ" secondAttribute="trailing" constant="10" id="S8i-xO-Bjf"/>
+                                                        <constraint firstItem="s1R-aV-90N" firstAttribute="leading" secondItem="mPx-bE-xhL" secondAttribute="leading" constant="10" id="YgR-DJ-gsy"/>
+                                                        <constraint firstItem="s1R-aV-90N" firstAttribute="top" secondItem="mPx-bE-xhL" secondAttribute="top" constant="10" id="amt-Kb-UkX"/>
+                                                        <constraint firstItem="GaQ-7g-dEJ" firstAttribute="top" secondItem="s1R-aV-90N" secondAttribute="bottom" constant="3" id="hVk-dn-fCc"/>
+                                                        <constraint firstItem="GaQ-7g-dEJ" firstAttribute="leading" secondItem="mPx-bE-xhL" secondAttribute="leading" constant="10" id="vcY-Fx-ze6"/>
+                                                        <constraint firstAttribute="trailing" secondItem="s1R-aV-90N" secondAttribute="trailing" constant="10" id="wEW-IW-SDh"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                        </view>
+                                        <color key="backgroundColor" white="0.87502750880281688" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="P3O-ua-RQu" firstAttribute="top" secondItem="dig-Wk-vT8" secondAttribute="top" id="4Uw-py-E7w"/>
+                                            <constraint firstAttribute="trailing" secondItem="mPx-bE-xhL" secondAttribute="trailing" id="845-hm-EZF"/>
+                                            <constraint firstItem="P3O-ua-RQu" firstAttribute="leading" secondItem="dig-Wk-vT8" secondAttribute="leading" id="S2W-OI-HNC"/>
+                                            <constraint firstItem="mPx-bE-xhL" firstAttribute="firstBaseline" secondItem="P3O-ua-RQu" secondAttribute="baseline" id="YNN-PX-YUN"/>
+                                            <constraint firstAttribute="trailing" secondItem="P3O-ua-RQu" secondAttribute="trailing" id="Yv3-Hk-3cO"/>
+                                            <constraint firstItem="mPx-bE-xhL" firstAttribute="leading" secondItem="dig-Wk-vT8" secondAttribute="leading" id="ejg-lk-C7o"/>
+                                            <constraint firstAttribute="bottom" secondItem="mPx-bE-xhL" secondAttribute="bottom" id="mtQ-VW-klT"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="lblLocation" destination="GaQ-7g-dEJ" id="Abg-Oe-Qwv"/>
+                                            <outlet property="lblName" destination="s1R-aV-90N" id="gre-hc-xL9"/>
+                                            <outlet property="profileImage" destination="P3O-ua-RQu" id="CIx-tz-gzw"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="sJU-GH-vOl" id="1S9-4X-rUv"/>
+                                    <outlet property="delegate" destination="sJU-GH-vOl" id="sXq-qs-qo4"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="RoG-ib-8hh" firstAttribute="leading" secondItem="SFg-HN-lGF" secondAttribute="leading" id="LcB-0X-QNR"/>
+                            <constraint firstItem="SFg-HN-lGF" firstAttribute="bottom" secondItem="RoG-ib-8hh" secondAttribute="bottom" id="QJq-FD-nqR"/>
+                            <constraint firstItem="SFg-HN-lGF" firstAttribute="trailing" secondItem="RoG-ib-8hh" secondAttribute="trailing" id="oo6-NF-ksf"/>
+                            <constraint firstItem="RoG-ib-8hh" firstAttribute="top" secondItem="SFg-HN-lGF" secondAttribute="top" id="tOq-p7-ONE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="SFg-HN-lGF"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Desaparecidos" id="Knk-il-Hm2"/>
+                    <connections>
+                        <outlet property="collectionView" destination="RoG-ib-8hh" id="b1b-hN-Fio"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2mT-TT-o8U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="763.768115942029" y="60.9375"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cO1-Sv-FaZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mVF-Nh-hPN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="RTy-xX-Wbp">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="sJU-GH-vOl" kind="relationship" relationship="rootViewController" id="vBQ-aB-deS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="so5-RZ-QpQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-146.37681159420291" y="60.9375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="peopleSearch" width="16.666666030883789" height="16.666666030883789"/>
+    </resources>
+</document>

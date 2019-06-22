@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>51077732752-kkfkc5voeh9jvrn109dlu9mj3ibb3i30.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.51077732752-kkfkc5voeh9jvrn109dlu9mj3ibb3i30</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDCFevxAdILyw3BL-mtTdWZzDQv2ua-VY4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>51077732752</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.pauloSantos.Vox</string>
+	<key>PROJECT_ID</key>
+	<string>voxsocial-a531a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>voxsocial-a531a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:51077732752:ios:ec71a712043243f7</string>
+	<key>DATABASE_URL</key>
+	<string>https://voxsocial-a531a.firebaseio.com</string>
+</dict>
+</plist>

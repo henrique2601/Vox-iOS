@@ -10,8 +10,6 @@ import UIKit
 
 class PeopleRegistrationWorker: PeopleRegistrationWorkerProtocol {
     func resgister(people: PeopleToRegister, completion: ((String) -> Void)!) {
-        
-        
         HttpService.request(
             path: "upload-face",
             method: .post,

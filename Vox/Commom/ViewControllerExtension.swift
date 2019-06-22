@@ -19,4 +19,18 @@ extension UIViewController {
         view.endEditing(true)
     }
     
+    func showAlertWith(message: String) {
+        let alert = UIAlertController(title: "", message: message, preferredStyle: .alert)
+        let OKAction = UIAlertAction(title: "OK", style: .default) { (action:UIAlertAction!) in
+            alert.dismiss(animated: false, completion: nil)
+        }
+        alert.addAction(OKAction)
+        self.present(alert, animated: false)
+    }
+}
+
+extension JSONDecoder {
+    func decode<T>(_ type: T.Type, fromJSONObject object: Any) throws -> T where T: Decodable {
+        return try decode(T.self, from: try JSONSerialization.data(withJSONObject: object, options: []))
+    }
 }

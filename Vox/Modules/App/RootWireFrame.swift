@@ -25,10 +25,19 @@ class RootWireframe: NSObject
         
         var wireframes = [TabBarViewProtocol]()
         
-        let peopleRecognition = PeopleRecognitionRouter()
-        wireframes.append(peopleRecognition)
+        let missingPeople = MissingPeopleRouter()
+        missingPeople.peopleType = .missing
+        missingPeople.tabTitle = "Desaparecidos"
+        wireframes.append(missingPeople)
+        
+        let homelessPeople = MissingPeopleRouter()
+        homelessPeople.peopleType = .homeless
+        homelessPeople.tabTitle = "Moradores de rua"
+        wireframes.append(homelessPeople)
         
         let peopleRegistration = PeopleRegistrationRouter()
+        wireframes.append(peopleRegistration)
+        
         wireframes.append(peopleRegistration)
         
         self.tabBarModuleWireframe = TabBarModuleRouter().installIntoWindow(rootWireFrame: self, window: self.window, wireFrames: wireframes)
