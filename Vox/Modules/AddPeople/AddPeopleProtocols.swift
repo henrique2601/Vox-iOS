@@ -13,6 +13,7 @@ protocol AddPeopleViewProtocol: class {
     
     // Add here your methods for communication PRESENTER -> VIEW
     func clean()
+    func showMessage(text: String)
 }
 
 protocol AddPeoplePresenterProtocol: class {
@@ -21,14 +22,14 @@ protocol AddPeoplePresenterProtocol: class {
     var router: AddPeopleRouterProtocol! { get set }
     
     // Add here your methods for communication VIEW -> PRESENTER
-    func createNewPeople(_ people: MissingPeople)
+    func createNewPeople(_ people: MissingPeople, image: UIImage)
 }
 
 protocol AddPeopleInteractorInputProtocol: class {
     var presenter: AddPeopleInteractorOutputProtocol! { get set }
     
     // Add here your methods for communication PRESENTER -> INTERACTOR
-    func createNewPeople(_ people:MissingPeople)
+    func createNewPeople(_ people:MissingPeople, image: UIImage)
 }
 
 protocol AddPeopleInteractorOutputProtocol: class {

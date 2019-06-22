@@ -35,9 +35,7 @@ class RootWireframe: NSObject
         homelessPeople.tabTitle = "Moradores de rua"
         wireframes.append(homelessPeople)
         
-        let peopleRegistration = PeopleRegistrationRouter()
-        wireframes.append(peopleRegistration)
-        
+        let peopleRegistration = AddPeopleRouter()
         wireframes.append(peopleRegistration)
         
         self.tabBarModuleWireframe = TabBarModuleRouter().installIntoWindow(rootWireFrame: self, window: self.window, wireFrames: wireframes)

@@ -61,6 +61,21 @@
 		2E43A01522BE24F1006379E4 /* AddPeopleProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43A01422BE24F1006379E4 /* AddPeopleProtocols.swift */; };
 		2E43A01622BE24F1006379E4 /* AddPeopleProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43A01422BE24F1006379E4 /* AddPeopleProtocols.swift */; };
 		2E43A01722BE24F1006379E4 /* AddPeopleProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43A01422BE24F1006379E4 /* AddPeopleProtocols.swift */; };
+		2E43A01922BE2D71006379E4 /* AddPeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43A01822BE2D71006379E4 /* AddPeopleView.swift */; };
+		2E43A01A22BE2D71006379E4 /* AddPeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43A01822BE2D71006379E4 /* AddPeopleView.swift */; };
+		2E43A01B22BE2D71006379E4 /* AddPeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43A01822BE2D71006379E4 /* AddPeopleView.swift */; };
+		2E43A01D22BE2D9C006379E4 /* AddPeopleView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E43A01C22BE2D9C006379E4 /* AddPeopleView.storyboard */; };
+		2E43A01E22BE2D9C006379E4 /* AddPeopleView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E43A01C22BE2D9C006379E4 /* AddPeopleView.storyboard */; };
+		2E43A01F22BE2D9C006379E4 /* AddPeopleView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E43A01C22BE2D9C006379E4 /* AddPeopleView.storyboard */; };
+		2E43A02122BE3951006379E4 /* AddPeoplePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43A02022BE3951006379E4 /* AddPeoplePresenter.swift */; };
+		2E43A02222BE3951006379E4 /* AddPeoplePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43A02022BE3951006379E4 /* AddPeoplePresenter.swift */; };
+		2E43A02322BE3951006379E4 /* AddPeoplePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43A02022BE3951006379E4 /* AddPeoplePresenter.swift */; };
+		2E43A02522BE3A2A006379E4 /* AddPeopleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43A02422BE3A2A006379E4 /* AddPeopleInteractor.swift */; };
+		2E43A02622BE3A2A006379E4 /* AddPeopleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43A02422BE3A2A006379E4 /* AddPeopleInteractor.swift */; };
+		2E43A02722BE3A2A006379E4 /* AddPeopleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43A02422BE3A2A006379E4 /* AddPeopleInteractor.swift */; };
+		2E43A02922BE3AE6006379E4 /* AddPeopleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43A02822BE3AE6006379E4 /* AddPeopleRouter.swift */; };
+		2E43A02A22BE3AE6006379E4 /* AddPeopleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43A02822BE3AE6006379E4 /* AddPeopleRouter.swift */; };
+		2E43A02B22BE3AE6006379E4 /* AddPeopleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43A02822BE3AE6006379E4 /* AddPeopleRouter.swift */; };
 		335C29769C7230B5C6BD9F57 /* Pods_VoxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7019089AE6F22A9E0481074 /* Pods_VoxTests.framework */; };
 		3A40011835968AE8C1F767B8 /* Pods_Vox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5032A48178A4CC9B48AEFF /* Pods_Vox.framework */; };
 		3A7FABB122873EA200A7A94A /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7FABB022873EA200A7A94A /* HttpService.swift */; };
@@ -172,6 +187,11 @@
 		2E43A00B22BDFCDB006379E4 /* MissingPeopleRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingPeopleRouter.swift; sourceTree = "<group>"; };
 		2E43A00F22BE1785006379E4 /* MissingPeopleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingPeopleCell.swift; sourceTree = "<group>"; };
 		2E43A01422BE24F1006379E4 /* AddPeopleProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPeopleProtocols.swift; sourceTree = "<group>"; };
+		2E43A01822BE2D71006379E4 /* AddPeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPeopleView.swift; sourceTree = "<group>"; };
+		2E43A01C22BE2D9C006379E4 /* AddPeopleView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddPeopleView.storyboard; sourceTree = "<group>"; };
+		2E43A02022BE3951006379E4 /* AddPeoplePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPeoplePresenter.swift; sourceTree = "<group>"; };
+		2E43A02422BE3A2A006379E4 /* AddPeopleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPeopleInteractor.swift; sourceTree = "<group>"; };
+		2E43A02822BE3AE6006379E4 /* AddPeopleRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPeopleRouter.swift; sourceTree = "<group>"; };
 		33A4E56536E9243FD22465CB /* Pods-VoxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoxTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VoxTests/Pods-VoxTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3A7FABB022873EA200A7A94A /* HttpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpService.swift; sourceTree = "<group>"; };
 		3A7FABB42287554C00A7A94A /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
@@ -262,6 +282,11 @@
 			isa = PBXGroup;
 			children = (
 				2E43A01422BE24F1006379E4 /* AddPeopleProtocols.swift */,
+				2E43A01822BE2D71006379E4 /* AddPeopleView.swift */,
+				2E43A01C22BE2D9C006379E4 /* AddPeopleView.storyboard */,
+				2E43A02022BE3951006379E4 /* AddPeoplePresenter.swift */,
+				2E43A02422BE3A2A006379E4 /* AddPeopleInteractor.swift */,
+				2E43A02822BE3AE6006379E4 /* AddPeopleRouter.swift */,
 			);
 			path = AddPeople;
 			sourceTree = "<group>";
@@ -561,6 +586,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E43A01D22BE2D9C006379E4 /* AddPeopleView.storyboard in Resources */,
 				3ABBE38E227DD0E500A7D386 /* LaunchScreen.storyboard in Resources */,
 				3AE9FA74227E1D97005BFCD9 /* PeopleRecognition.storyboard in Resources */,
 				2E43A00022BDF175006379E4 /* MissingPeopleView.storyboard in Resources */,
@@ -579,6 +605,7 @@
 				2E439FF022BDD97F006379E4 /* PeopleRegistration.storyboard in Resources */,
 				2E439FE822BDD434006379E4 /* GoogleService-Info.plist in Resources */,
 				3AE9FA75227E1D97005BFCD9 /* PeopleRecognition.storyboard in Resources */,
+				2E43A01E22BE2D9C006379E4 /* AddPeopleView.storyboard in Resources */,
 				2E439FD822BDA6EB006379E4 /* LoginView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -591,6 +618,7 @@
 				2E439FF122BDD97F006379E4 /* PeopleRegistration.storyboard in Resources */,
 				2E439FE922BDD434006379E4 /* GoogleService-Info.plist in Resources */,
 				3AE9FA76227E1D97005BFCD9 /* PeopleRecognition.storyboard in Resources */,
+				2E43A01F22BE2D9C006379E4 /* AddPeopleView.storyboard in Resources */,
 				2E439FD922BDA6EB006379E4 /* LoginView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -700,6 +728,7 @@
 				3AE9FA7C227E229E005BFCD9 /* ViewTapGestureExtension.swift in Sources */,
 				3A7FABB52287554C00A7A94A /* ViewControllerExtension.swift in Sources */,
 				2E439FEC22BDD97F006379E4 /* PeopleRegistrationViewController.swift in Sources */,
+				2E43A02522BE3A2A006379E4 /* AddPeopleInteractor.swift in Sources */,
 				3AF301AB228712A4003C7BFF /* TabBarProtocols.swift in Sources */,
 				3AF301A6228711FC003C7BFF /* RootWireFrame.swift in Sources */,
 				3ABBE3D0227E1B2100A7D386 /* PeopleRecognitionWorker.swift in Sources */,
@@ -712,6 +741,7 @@
 				2E43A00422BDFA66006379E4 /* MissingPeoplePresenter.swift in Sources */,
 				2E439FD322BDA685006379E4 /* LoginView.swift in Sources */,
 				3ABBE3C8227E198300A7D386 /* PeopleRecognitionPresenter.swift in Sources */,
+				2E43A02122BE3951006379E4 /* AddPeoplePresenter.swift in Sources */,
 				3AF3019D22870FC9003C7BFF /* PeopleToRegister.swift in Sources */,
 				2E439FF822BDEC4D006379E4 /* MissingPeople.swift in Sources */,
 				3ABBE3BC227E138E00A7D386 /* CoreDataStore.swift in Sources */,
@@ -720,9 +750,11 @@
 				3AF3019722870CA3003C7BFF /* PeopleRegistrationProtocols.swift in Sources */,
 				3AE9FA78227E2096005BFCD9 /* ImagePicker.swift in Sources */,
 				2E439FDF22BDBE24006379E4 /* LoginInteractor.swift in Sources */,
+				2E43A01922BE2D71006379E4 /* AddPeopleView.swift in Sources */,
 				3ABBE3C4227E190800A7D386 /* PeopleRecognitionViewController.swift in Sources */,
 				2E43A00C22BDFCDB006379E4 /* MissingPeopleRouter.swift in Sources */,
 				3ABBE3CC227E1A1E00A7D386 /* PeopleRecognitionInteractor.swift in Sources */,
+				2E43A02922BE3AE6006379E4 /* AddPeopleRouter.swift in Sources */,
 				2E43A00822BDFB65006379E4 /* MissingPeopleInteractor.swift in Sources */,
 				2E439FCF22BD93B1006379E4 /* LoginProtocols.swift in Sources */,
 				2E439FFC22BDF047006379E4 /* MissingPeopleView.swift in Sources */,
@@ -759,20 +791,24 @@
 				3ABBE3BD227E138E00A7D386 /* CoreDataStore.swift in Sources */,
 				2E43A00922BDFB65006379E4 /* MissingPeopleInteractor.swift in Sources */,
 				3ABBE3CD227E1A1E00A7D386 /* PeopleRecognitionInteractor.swift in Sources */,
+				2E43A02622BE3A2A006379E4 /* AddPeopleInteractor.swift in Sources */,
 				3AF301BC22872754003C7BFF /* PeopleRegistrationPresenter.swift in Sources */,
 				2E439FF922BDEC4D006379E4 /* MissingPeople.swift in Sources */,
 				2E43A01622BE24F1006379E4 /* AddPeopleProtocols.swift in Sources */,
 				3AF301AC228712A4003C7BFF /* TabBarProtocols.swift in Sources */,
 				3AF301C822872912003C7BFF /* PeopleRegistrationRouter.swift in Sources */,
 				3AF301B022871368003C7BFF /* TabBarModuleRouter.swift in Sources */,
+				2E43A02A22BE3AE6006379E4 /* AddPeopleRouter.swift in Sources */,
 				3AF301A7228711FC003C7BFF /* RootWireFrame.swift in Sources */,
 				2E439FFD22BDF047006379E4 /* MissingPeopleView.swift in Sources */,
 				3ABBE399227DD0E500A7D386 /* VoxTests.swift in Sources */,
 				3A7FABB62287554C00A7A94A /* ViewControllerExtension.swift in Sources */,
+				2E43A02222BE3951006379E4 /* AddPeoplePresenter.swift in Sources */,
 				2E43A00D22BDFCDB006379E4 /* MissingPeopleRouter.swift in Sources */,
 				3ABBE3C5227E190800A7D386 /* PeopleRecognitionViewController.swift in Sources */,
 				3ABBE3D5227E1BF500A7D386 /* PeopleRecognitionRouter.swift in Sources */,
 				3A7FABB222873EA200A7A94A /* HttpService.swift in Sources */,
+				2E43A01A22BE2D71006379E4 /* AddPeopleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -801,20 +837,24 @@
 				3ABBE3BE227E138E00A7D386 /* CoreDataStore.swift in Sources */,
 				2E43A00A22BDFB65006379E4 /* MissingPeopleInteractor.swift in Sources */,
 				3ABBE3CE227E1A1E00A7D386 /* PeopleRecognitionInteractor.swift in Sources */,
+				2E43A02722BE3A2A006379E4 /* AddPeopleInteractor.swift in Sources */,
 				3AF301BD22872754003C7BFF /* PeopleRegistrationPresenter.swift in Sources */,
 				2E439FFA22BDEC4D006379E4 /* MissingPeople.swift in Sources */,
 				2E43A01722BE24F1006379E4 /* AddPeopleProtocols.swift in Sources */,
 				3AF301AD228712A4003C7BFF /* TabBarProtocols.swift in Sources */,
 				3AF301C922872912003C7BFF /* PeopleRegistrationRouter.swift in Sources */,
 				3AF301B122871368003C7BFF /* TabBarModuleRouter.swift in Sources */,
+				2E43A02B22BE3AE6006379E4 /* AddPeopleRouter.swift in Sources */,
 				3AF301A8228711FC003C7BFF /* RootWireFrame.swift in Sources */,
 				2E439FFE22BDF047006379E4 /* MissingPeopleView.swift in Sources */,
 				3ABBE3A4227DD0E500A7D386 /* VoxUITests.swift in Sources */,
 				3A7FABB72287554C00A7A94A /* ViewControllerExtension.swift in Sources */,
+				2E43A02322BE3951006379E4 /* AddPeoplePresenter.swift in Sources */,
 				2E43A00E22BDFCDB006379E4 /* MissingPeopleRouter.swift in Sources */,
 				3ABBE3C6227E190800A7D386 /* PeopleRecognitionViewController.swift in Sources */,
 				3ABBE3D6227E1BF500A7D386 /* PeopleRecognitionRouter.swift in Sources */,
 				3A7FABB322873EA200A7A94A /* HttpService.swift in Sources */,
+				2E43A01B22BE2D71006379E4 /* AddPeopleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

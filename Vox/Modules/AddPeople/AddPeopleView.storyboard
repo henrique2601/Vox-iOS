@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wUY-9r-NUj">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Cadastrar pessoa-->
+        <scene sceneID="7Wj-mE-mb2">
+            <objects>
+                <viewController storyboardIdentifier="AddPeopleView" title="Cadastrar pessoa" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ZTB-3m-YFf" customClass="AddPeopleView" customModule="Vox" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l27-r5-krx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="peopleSearchImageHolder" translatesAutoresizingMaskIntoConstraints="NO" id="xCM-Kc-srN">
+                                <rect key="frame" x="0.0" y="98" width="414" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="jR9-ul-JkX"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nome" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jpq-bN-8db">
+                                <rect key="frame" x="20" y="198" width="374" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Tipo" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gt9-YZ-hU4">
+                                <rect key="frame" x="20" y="236" width="374" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Estado" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OBf-sb-31j">
+                                <rect key="frame" x="20" y="274" width="374" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Cidade" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ei7-nY-3OS">
+                                <rect key="frame" x="20" y="312" width="374" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sgH-TP-B48">
+                                <rect key="frame" x="20" y="350" width="374" height="54"/>
+                                <color key="backgroundColor" red="0.90196078430000004" green="0.4941176471" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="J0O-Mu-zTn"/>
+                                </constraints>
+                                <state key="normal" title="Adicionar">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnAddClicked:" destination="ZTB-3m-YFf" eventType="touchUpInside" id="yV9-tm-wSh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ej4-Ov-MQ2" firstAttribute="trailing" secondItem="sgH-TP-B48" secondAttribute="trailing" constant="20" id="1Ql-E5-PWZ"/>
+                            <constraint firstItem="OBf-sb-31j" firstAttribute="leading" secondItem="ej4-Ov-MQ2" secondAttribute="leading" constant="20" id="3rN-Wp-1je"/>
+                            <constraint firstItem="xCM-Kc-srN" firstAttribute="leading" secondItem="l27-r5-krx" secondAttribute="leading" id="6US-NB-CMK"/>
+                            <constraint firstItem="OBf-sb-31j" firstAttribute="top" secondItem="Gt9-YZ-hU4" secondAttribute="bottom" constant="8" symbolic="YES" id="8eC-GU-3EH"/>
+                            <constraint firstItem="ej4-Ov-MQ2" firstAttribute="trailing" secondItem="jpq-bN-8db" secondAttribute="trailing" constant="20" id="9dR-up-ddG"/>
+                            <constraint firstItem="sgH-TP-B48" firstAttribute="top" secondItem="ei7-nY-3OS" secondAttribute="bottom" constant="8" symbolic="YES" id="A5K-OC-Vcy"/>
+                            <constraint firstItem="jpq-bN-8db" firstAttribute="leading" secondItem="ej4-Ov-MQ2" secondAttribute="leading" constant="20" id="DhH-4h-Soq"/>
+                            <constraint firstItem="xCM-Kc-srN" firstAttribute="top" secondItem="ej4-Ov-MQ2" secondAttribute="top" constant="10" id="HvU-VI-wY2"/>
+                            <constraint firstItem="ej4-Ov-MQ2" firstAttribute="trailing" secondItem="OBf-sb-31j" secondAttribute="trailing" constant="20" id="L93-I9-vIU"/>
+                            <constraint firstItem="ej4-Ov-MQ2" firstAttribute="trailing" secondItem="xCM-Kc-srN" secondAttribute="trailing" id="Zp3-al-D7R"/>
+                            <constraint firstItem="ej4-Ov-MQ2" firstAttribute="trailing" secondItem="Gt9-YZ-hU4" secondAttribute="trailing" constant="20" id="aFQ-oK-Onc"/>
+                            <constraint firstItem="Gt9-YZ-hU4" firstAttribute="top" secondItem="jpq-bN-8db" secondAttribute="bottom" constant="8" symbolic="YES" id="cLC-pO-l91"/>
+                            <constraint firstItem="sgH-TP-B48" firstAttribute="leading" secondItem="ej4-Ov-MQ2" secondAttribute="leading" constant="20" id="cNS-UC-NLz"/>
+                            <constraint firstItem="ei7-nY-3OS" firstAttribute="leading" secondItem="ej4-Ov-MQ2" secondAttribute="leading" constant="20" id="jtU-a5-1Vo"/>
+                            <constraint firstItem="Gt9-YZ-hU4" firstAttribute="leading" secondItem="ej4-Ov-MQ2" secondAttribute="leading" constant="20" id="my9-wD-Uhs"/>
+                            <constraint firstItem="jpq-bN-8db" firstAttribute="top" secondItem="xCM-Kc-srN" secondAttribute="bottom" constant="20" id="osa-xT-7FP"/>
+                            <constraint firstItem="ei7-nY-3OS" firstAttribute="top" secondItem="OBf-sb-31j" secondAttribute="bottom" constant="8" symbolic="YES" id="rtV-Vo-Onx"/>
+                            <constraint firstItem="ej4-Ov-MQ2" firstAttribute="trailing" secondItem="ei7-nY-3OS" secondAttribute="trailing" constant="20" id="vAQ-Vz-zoR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ej4-Ov-MQ2"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Cadastrar pessoa" id="4aY-RE-R6c"/>
+                    <connections>
+                        <outlet property="btnAdd" destination="sgH-TP-B48" id="wO7-9F-222"/>
+                        <outlet property="imageView" destination="xCM-Kc-srN" id="rGl-EQ-dAy"/>
+                        <outlet property="lblCity" destination="ei7-nY-3OS" id="NIS-X3-e3f"/>
+                        <outlet property="lblName" destination="jpq-bN-8db" id="gpY-E8-kpm"/>
+                        <outlet property="lblState" destination="OBf-sb-31j" id="MRZ-aS-uWU"/>
+                        <outlet property="lblType" destination="Gt9-YZ-hU4" id="mqV-1b-G5C"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ja8-AZ-awp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="734.78260869565224" y="55.580357142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="uH1-cn-Nyd">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wUY-9r-NUj" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="H8Y-tN-ew6">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ZTB-3m-YFf" kind="relationship" relationship="rootViewController" id="r5D-3h-0A9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o0p-Gd-3Nk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-175.36231884057972" y="55.580357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="peopleSearchImageHolder" width="512" height="512"/>
+    </resources>
+</document>

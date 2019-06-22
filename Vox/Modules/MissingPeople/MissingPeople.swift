@@ -11,11 +11,11 @@ import UIKit
 struct MissingPeople: Decodable {
     var name: String
     var imageURL: String
-    var gender: String
-    var ethnicity: String
-    var eyeColor: String
-    var height: String
-    var hairColor: String
+//    var gender: String
+//    var ethnicity: String
+//    var eyeColor: String
+//    var height: String
+//    var hairColor: String
     var city: String
     var state: String
     var type: String
@@ -23,6 +23,6 @@ struct MissingPeople: Decodable {
 }
 
 enum PeopleType: String {
-    case missing = "missing"
-    case homeless = "homeless"
+    case missing = "Desaparecido"
+    case homeless = "Morador de rua"
 }

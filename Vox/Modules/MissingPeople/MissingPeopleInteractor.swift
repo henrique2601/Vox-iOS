@@ -36,7 +36,5 @@ class MissingPeopleInteractor: MissingPeopleInteractorInputProtocol {
                 
                 self?.presenter.peopleFetched(people: peopleList)
         }
-        
-        //presenter.failToFetchPeopleWith(message: "fail")
     }
 }
